@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.scss'
-import NavBar from './components/navbar/NavBar';
-
+import  NavBar  from './components/NavBar/NavBar';
+import React from 'react';
+import Header from './container/Header/Header';
+import Work from './container/Work/Work';
+import About from './container/About/About';
 function App() {
   return (
     <div className="app">
       <NavBar/>
+      <Header/>
+      <About/>
+      <Work/>
     </div>
   );
 }
