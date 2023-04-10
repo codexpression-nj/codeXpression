@@ -30,8 +30,8 @@
  .app__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     list-style: none;
  
     li {
