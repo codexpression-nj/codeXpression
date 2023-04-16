@@ -1,7 +1,7 @@
 import { images } from "../../constants";
 const works = [
    {
-      title: " Tesla-Ecommerce",
+      title: "Todo list part one",
       description: "A fullstack webite with a modern UI",
       codeLink: "https://github.com/Tanishka-dev/Tesla-Ecommerce-Redux",
       projectLink: "https://tesla-ecommerce.netlify.app/",
@@ -9,7 +9,7 @@ const works = [
       tag: "Redux App",
    },
    {
-      title: "Uber Clone",
+      title: "Todo list part two",
       description: "A mobile application built in React Native",
       codeLink: "https://github.com/Tanishka-dev/Uber-Clone-React-Native",
       projectLink:
@@ -18,7 +18,7 @@ const works = [
       tag: "React-Native App",
    },
    {
-      title: "Gossip-Mania",
+      title: "Todo list part three",
       description:
          "A react app with all the features of modern chat application",
       codeLink: "https://github.com/Tanishka-dev/Gossip-Mania-React-App",
@@ -27,7 +27,21 @@ const works = [
       tag: "Reactjs App",
    },
    {
-      title: "Tenzies Game",
+      title: "Weather app part one",
+      description: "Tenzies Game which we all love to play",
+      codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
+      projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
+    //   imageUrl: images.tenzies,
+      tag: "Reactjs App",
+   }, {
+      title: "Weather app part two",
+      description: "Tenzies Game which we all love to play",
+      codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
+      projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
+    //   imageUrl: images.tenzies,
+      tag: "Reactjs App",
+   }, {
+      title: "News app",
       description: "Tenzies Game which we all love to play",
       codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
       projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
