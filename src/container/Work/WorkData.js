@@ -6,7 +6,7 @@ const works = [
       codeLink: "https://github.com/Tanishka-dev/Tesla-Ecommerce-Redux",
       projectLink: "https://tesla-ecommerce.netlify.app/",
     //   imageUrl: images.tesla,
-      tag: "Redux App",
+      tag: "Ionic App",
    },
    {
       title: "Todo list part two",
@@ -15,7 +15,7 @@ const works = [
       projectLink:
          "https://expo.dev/@tanishka_yadav/clone-uber?serviceType=classic&distribution=expo-go",
     //   imageUrl: images.uber,
-      tag: "React-Native App",
+      tag: "Ionic App",
    },
    {
       title: "Todo list part three",
@@ -24,7 +24,7 @@ const works = [
       codeLink: "https://github.com/Tanishka-dev/Gossip-Mania-React-App",
       projectLink: "https://gossip-mania.netlify.app/",
     //   imageUrl: images.gossip,
-      tag: "Reactjs App",
+      tag: "ionic App",
    },
    {
       title: "Weather app part one",
@@ -32,21 +32,21 @@ const works = [
       codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
       projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
     //   imageUrl: images.tenzies,
-      tag: "Reactjs App",
+      tag: "ionic App",
    }, {
       title: "Weather app part two",
       description: "Tenzies Game which we all love to play",
       codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
       projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
     //   imageUrl: images.tenzies,
-      tag: "Reactjs App",
+      tag: "ionic App",
    }, {
       title: "News app",
       description: "Tenzies Game which we all love to play",
       codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
       projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
     //   imageUrl: images.tenzies,
-      tag: "Reactjs App",
+      tag: "Ionic App",
    },
 ];
 
