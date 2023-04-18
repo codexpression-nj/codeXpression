@@ -24,7 +24,7 @@ function Youtube() {
             {works.map((work, index) => (
                <div className="app__work-item app-flex" key={index}>
                   <div className="app__work-img app-flex">
-                     {/* <img src={work.imageUrl} alt="work"></img> */}
+                     <img src={work.imageUrl} alt="work"></img>
                      <motion.div
                         className="app__work-hover app-flex"
                         whileHover={{ opacity: [1, 1] }}
