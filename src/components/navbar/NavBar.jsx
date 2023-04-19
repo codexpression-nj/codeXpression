@@ -29,7 +29,7 @@ function NavBar() {
                >
                   <HiX onClick={() => setToggle(false)} />
                   <ul>
-                     {["home", "about", "contact", "skills", "work"].map(
+                     {["home", "about", "work"].map(
                         (item) => (
                            <li key={item}>
                               <a

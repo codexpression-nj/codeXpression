@@ -29,6 +29,22 @@ function About() {
             "With growing demand of mobile applications, a good react-native developer is a must.",
         //  imageUrl: images.about04,
       },
+      {
+         title: "React-Native Developer",
+         description:
+            "With growing demand of mobile applications, a good react-native developer is a must.",
+        //  imageUrl: images.about04,
+      },   {
+         title: "React-Native Developer",
+         description:
+            "With growing demand of mobile applications, a good react-native developer is a must.",
+        //  imageUrl: images.about04,
+      },   {
+         title: "React-Native Developer",
+         description:
+            "With growing demand of mobile applications, a good react-native developer is a must.",
+        //  imageUrl: images.about04,
+      },
    ];
    return (
       <>
@@ -47,7 +63,7 @@ function About() {
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.5, type: "tween" }}
                >
-                  <img src={about.imageUrl} alt={about.title}></img>
+                  {/* <img src={about.imageUrl} alt={about.title}></img> */}
                   <h2 className="bold-text" style={{ marginTop: 20 }}>
                      {about.title}
                   </h2>

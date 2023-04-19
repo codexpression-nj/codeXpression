@@ -48,6 +48,21 @@ const works = [
       imageUrl: images.newsApp,
       tag: "Ionic App",
    },
+   {
+      title: "News app",
+      description: "Tenzies Game which we all love to play",
+      codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
+      projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
+      imageUrl: images.newsApp,
+      tag: "Ionic App",
+   },{
+      title: "News app",
+      description: "Tenzies Game which we all love to play",
+      codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
+      projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
+      imageUrl: images.newsApp,
+      tag: "Ionic App",
+   },
 ];
 
 export default works;
