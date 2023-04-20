@@ -16,16 +16,14 @@ function Youtube() {
             <span> </span>
          </h2>
 
-
          <motion.div
             transition={{ duration: 0.5, delayChildren: 0.5 }}
             className="app__work-portfolio app-flex"
          >
-            <div class="carousel-wrapper app-flex">
-               <Carousel infiniteLoop useKeyboardArrows autoPlay centerMode>
+            <div style={{width: '100%'}}>
+               <Carousel infiniteLoop useKeyboardArrows autoPlay centerMode style={{with:20, backgroundColor: 'red', }}>
 
                   {works.map((work, index) => (
-
                      <div style={{height:500}} className="app__work-item  app-flex" key={index}>
                         <div className="app__work-img app-flex">
                            <img src={work.imageUrl} alt="work"></img>
