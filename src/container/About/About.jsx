@@ -14,7 +14,7 @@ function About() {
       {
          title: "Front-end Developer",
          description:
-            "Love to juggle through code and structure UI which can give user a good experience while surfing.",
+            "I hav Experience working with designers and having an understanding of User Experience and UI Design",
         //  imageUrl: images.about02,
       },
       {
@@ -30,9 +30,9 @@ function About() {
         //  imageUrl: images.about04,
       },
       {
-         title: "React-Native Developer",
+         title: "Rest API intergration",
          description:
-            "With growing demand of mobile applications, a good react-native developer is a must.",
+            "I have experience with RESTful APIs and JSON data",
         //  imageUrl: images.about04,
       },   {
          title: "React-Native Developer",
