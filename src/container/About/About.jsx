@@ -9,41 +9,38 @@ function About() {
          title: "Web Designer",
          description:
             "I am a web desinger with a passion for building beautiful and functional web applications.",
-        //  imageUrl: images.about01,
       },
       {
          title: "Front-end Developer",
          description:
-            "I hav Experience working with designers and having an understanding of User Experience and UI Design",
-        //  imageUrl: images.about02,
+            "I have experience working with designers and having an understanding of User Experience and UI Design.",
       },
       {
          title: "React Developer",
          description:
             "I feel happpy while designing and implementing user-facing features for websites and applications using React.js.",
-        //  imageUrl: images.about03,
       },
       {
          title: "React-Native Developer",
          description:
             "With growing demand of mobile applications, a good react-native developer is a must.",
-        //  imageUrl: images.about04,
       },
       {
          title: "Rest API intergration",
          description:
             "I have experience with RESTful APIs and JSON data",
-        //  imageUrl: images.about04,
       },   {
-         title: "React-Native Developer",
+         title: "Angular Developer",
          description:
-            "With growing demand of mobile applications, a good react-native developer is a must.",
-        //  imageUrl: images.about04,
+            "Extensive experience building high quality web applications using Angular",
       },   {
-         title: "React-Native Developer",
+         title: "Ionic Developer",
          description:
-            "With growing demand of mobile applications, a good react-native developer is a must.",
-        //  imageUrl: images.about04,
+            "I have a keen interest in mobile UX/UI design and Material Design",
+      }, {
+         title: "Flutter Developer",
+         description:
+            "I have knack for visually pleasing designs and flutter always gives me that.",
       },
    ];
    return (

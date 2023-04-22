@@ -73,7 +73,7 @@ function Header() {
             <div className="app__header-badge">
                <div style={{marginTop:20}}>
                <h3>
-                     Transforming a vision into reality through code and design.
+                     I turn a vision into reality through code and design.
                   </h3>
                   <p className="p-text ">
                     I am an expirenced and highly skilled mobile and web developer. Explore my latest projects and youtube videos showcasing my
