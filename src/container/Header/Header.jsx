@@ -71,11 +71,11 @@ function Header() {
                </div>
             </div>
             <div className="app__header-badge">
-               <div style={{marginTop:20}}>
-               <h3>
+               <div style={{marginTop:40}}>
+               <h3 >
                      I turn a vision into reality through code and design.
                   </h3>
-                  <p className="p-text ">
+                  <p className="p-text " style={{marginTop:20}}>
                     I am an expirenced and highly skilled mobile and web developer. Explore my latest projects and youtube videos showcasing my
                      expertise in ReactJS, React Native, Flutter, Ionic, Angular, Vue and Firebase
                   </p>

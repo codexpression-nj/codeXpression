@@ -29,14 +29,13 @@ function Youtube() {
                            <img src={work.imageUrl} alt="work"></img>
                            <motion.div
                               className="app__work-hover app-flex"
-                              whileHover={{ opacity: [1, 1] }}
+                              whileHover={{ opacity: [0, 0] }}
                               transition={{
                                  duration: 0.25,
                                  ease: " easeInOut",
                                  staggerChildren: 0.5,
                               }}
                            >
-                             
                              <a href={work.codeLink} target="blank" rel="noreferrer">
                                  <motion.div
                                     whileInView={{ scale: [0, 1] }}

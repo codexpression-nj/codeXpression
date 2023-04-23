@@ -22,13 +22,17 @@
     padding: 6rem 2rem 0;
  
     @media screen and (min-width: 2000px) {
-       padding-top: 8rem;
+       padding-top: 1rem;
+       flex-direction: column;
+
     }
     @media screen and (max-width: 1200px) {
-       flex-direction: column;
+       flex-direction: row;
     }
     @media screen and (max-width: 450px) {
        padding-top: 6rem 1rem 2rem;
+       flex-direction: column;
+
     }
  }
  .app__header-info {
