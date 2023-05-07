@@ -5,11 +5,7 @@ import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 function About() {
    const abouts = [
-      {
-         title: "Web Designer",
-         description:
-            "I am a web desinger with a passion for building beautiful and functional web applications.",
-      },
+    
       {
          title: "Front-end Developer",
          description:
