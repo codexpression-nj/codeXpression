@@ -24,63 +24,41 @@ function Work() {
             transition={{ duration: 0.5, delayChildren: 0.5 }}
             className="app__work-portfolio"
          >
-
-            {works.map((work, index) => (
-               <div className="app__work-item app-flex" key={index}>
-                  <div class="carousel-wrapper">
-                     <Carousel infiniteLoop useKeyboardArrows autoPlay>
-
-                        <div className="app__work-img app-flex">
-                           {/* <img src={work.imageUrl} alt="work"></img> */}
-                           <motion.div
-                              className="app__work-hover app-flex"
-                              whileHover={{ opacity: [1, 1] }}
-                              transition={{
-                                 duration: 0.25,
-                                 ease: " easeInOut",
-                                 staggerChildren: 0.5,
-                              }}
-                           >
-                              <a
-                                 href={work.projectLink}
-                                 target="blank"
-                                 rel="noreferrer"
-                              >
-                                 <motion.div
-                                    whileInView={{ scale: [0, 1] }}
-                                    whileHover={{ scale: [1, 0.4] }}
-                                    transition={{ duration: 0.25 }}
-                                    className="app__flex"
-                                 >
-                                    <AiFillEye />
-                                 </motion.div>
-                              </a>
-                              <a href={work.codeLink} target="blank" rel="noreferrer">
-                                 <motion.div
-                                    whileInView={{ scale: [0, 1] }}
-                                    whileHover={{ scale: [1, 0.4] }}
-                                    transition={{ duration: 0.25 }}
-                                    className="app__flex"
-                                 >
-                                    <AiFillGithub />
-                                 </motion.div>
-                              </a>
-                           </motion.div>
-                        </div>
-                        <div className="app__work-content app__flex">
-                           <h4 className="bold-text">{work.title}</h4>
-                           <p className="p-text" style={{ marginTop: 10 }}>
-                              {work.description}
-                           </p>
-                           <div className="app__work-tag app__flex">
-                              <p className="p-text">{work.tag} </p>
-                           </div>
-                        </div>
-                     </Carousel>
-                  </div>
-
+            <section class="services">
+              
+               <div class="services__card">
+                  <div class="services__card__svg"></div>
+                  <h2 class="heading heading-sm">Animation</h2>
+                  <p>All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour
+                     course.</p>
+               
                </div>
-            ))}
+               <div class="services__card">
+                  <div class="services__card__svg"></div>
+                  <h2 class="heading heading-sm">Design</h2>
+                  <p>Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
+                 
+               </div>
+               <div class="services__card">
+                  <div class="services__card__svg"></div>
+                  <h2 class="heading heading-sm">Photography</h2>
+                  <p>Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
+                  
+               </div>
+               <div class="services__card">
+                  <div class="services__card__svg"></div>
+                  <h2 class="heading heading-sm">Crypto</h2>
+                  <p>All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour
+                     course.</p>
+                
+               </div>
+               <div class="services__card">
+                  <div class="services__card__svg"></div>
+                  <h2 class="heading heading-sm">Business</h2>
+                  <p>A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
+                
+               </div>
+            </section>
          </motion.div>
       </>
    );

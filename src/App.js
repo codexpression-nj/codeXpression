@@ -12,6 +12,7 @@ function App() {
       <NavBar/>
       <Header/>
       <About/>
+      <Work/>
       <Youtube/>
     </div>
   );
